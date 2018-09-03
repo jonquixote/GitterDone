@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8E5210021364120002BD87A /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8E520FF21364118002BD87A /* fa-regular-400.ttf */; };
 		F8FF0FA521363B6E00383548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF0FA421363B6E00383548 /* AppDelegate.swift */; };
 		F8FF0FA721363B6E00383548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF0FA621363B6E00383548 /* ViewController.swift */; };
-		F8FF0FAA21363B6E00383548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FF0FA821363B6E00383548 /* Main.storyboard */; };
+		F8FF0FAA21363B6E00383548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FF0FA821363B6E00383548 /* Main.storyboard */; settings = {ASSET_TAGS = (007, ); }; };
 		F8FF0FAD21363B6E00383548 /* GitterDone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8FF0FAB21363B6E00383548 /* GitterDone.xcdatamodeld */; };
 		F8FF0FAF21363B6F00383548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FF0FAE21363B6F00383548 /* Assets.xcassets */; };
 		F8FF0FB221363B6F00383548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FF0FB021363B6F00383548 /* LaunchScreen.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8E520FF21364118002BD87A /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fa-regular-400.ttf"; path = "../../GiterDone/GiterDone/fa-regular-400.ttf"; sourceTree = "<group>"; };
 		F8FF0FA121363B6E00383548 /* GitterDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitterDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FF0FA421363B6E00383548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FF0FA621363B6E00383548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F8FF0FA621363B6E00383548 /* ViewController.swift */,
 				F8FF0FA821363B6E00383548 /* Main.storyboard */,
 				F8FF0FAE21363B6F00383548 /* Assets.xcassets */,
+				F8E520FF21364118002BD87A /* fa-regular-400.ttf */,
 				F8FF0FB021363B6F00383548 /* LaunchScreen.storyboard */,
 				F8FF0FB321363B6F00383548 /* Info.plist */,
 				F8FF0FAB21363B6E00383548 /* GitterDone.xcdatamodeld */,
@@ -190,6 +193,10 @@
 		F8FF0F9921363B6E00383548 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					007,
+					NNAAVV007,
+				);
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = GSD;
@@ -233,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FF0FB221363B6F00383548 /* LaunchScreen.storyboard in Resources */,
+				F8E5210021364120002BD87A /* fa-regular-400.ttf in Resources */,
 				F8FF0FAF21363B6F00383548 /* Assets.xcassets in Resources */,
 				F8FF0FAA21363B6E00383548 /* Main.storyboard in Resources */,
 			);
